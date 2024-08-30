@@ -1,0 +1,64 @@
+﻿/* Stilizimet për header */
+
+.hero {
+  background-image: url(./Info_2.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+/* Stilizimet për main */
+
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+}
+
+.about,
+.services {
+  margin-bottom: 40px;
+}
+
+.services .service-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.services .service-item h3 {
+  margin-bottom: 10px;
+}
+
+/* Stilizimet për footer */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff8533;
+}
